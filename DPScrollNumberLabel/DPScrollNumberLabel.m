@@ -635,7 +635,7 @@ static NSString * const numberCellText = @"0\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n1\n2
                 _signCell.text = @"-\n \n ";
                 break;
             case SignSettingUnsigned:
-                _signCell.text = @" \n \n ";
+//                _signCell.text = @" \n \n ";
                 break;
             case SignSettingSigned:
                 _signCell.text = @"-\n \n+";
